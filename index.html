@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Список сделок</title>
+  <script src="https://api.bitrix24.com/api/v1/"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Список сделок</h2>
+  <input id="minSum" type="number" placeholder="Минимальная сумма">
+  <button onclick="loadDeals()">Показать</button>
+
+  <table id="deals">
+    <thead><tr><th>ID</th><th>Название</th><th>Сумма</th></tr></thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
